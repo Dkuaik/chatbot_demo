@@ -8,10 +8,10 @@ export default defineConfig({
   site: "http://demo.dkuaik.dev",
   vite: {
     server: {
-      allowedHosts: true,
+      allowedHosts: ['<all>'],
     },
     preview: {
-      allowedHosts: true,
+      allowedHosts: ['<all>'],
     },
   },
 });
