@@ -5,10 +5,13 @@ import react from '@astrojs/react';
 // https://astro.build/config
 export default defineConfig({
   integrations: [react()],
-  vite: {
-    server: {
-      // Permitir todos los hosts (cuidado en producción)
-      allowedHosts: ['*']
-    }
-  }
+  site: "http://demo.dkuaik.dev",
+   vite: {
+     server: {
+       allowedHosts: true,
+     },
+     preview: {
+       allowedHosts: true,
+     },
+   },
 });
