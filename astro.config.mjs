@@ -10,6 +10,7 @@ export default defineConfig({
     server: {
       allowedHosts: [
         "demos-chatbotragindava-aog5if-68d07a-217-196-48-210.traefik.me",
+        "chat.dkuaik.dev",
         "localhost",
         "127.0.0.1"
       ],
@@ -17,6 +18,7 @@ export default defineConfig({
     preview: {
       allowedHosts: [
         "demos-chatbotragindava-aog5if-68d07a-217-196-48-210.traefik.me",
+        "chat.dkuaik.dev",
         "localhost",
         "127.0.0.1"
       ],
