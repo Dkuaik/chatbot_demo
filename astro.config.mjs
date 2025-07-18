@@ -6,12 +6,12 @@ import react from '@astrojs/react';
 export default defineConfig({
   integrations: [react()],
   site: "http://demo.dkuaik.dev",
-   vite: {
-     server: {
-       allowedHosts: true,
-     },
-     preview: {
-       allowedHosts: true,
-     },
-   },
+  vite: {
+    server: {
+      allowedHosts: true,
+    },
+    preview: {
+      allowedHosts: true,
+    },
+  },
 });
