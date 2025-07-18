@@ -18,4 +18,5 @@ COPY --from=builder /app/public ./public
 RUN npm install -g serve
 
 EXPOSE 4321
-CMD ["serve", "-s", "dist", "-l", "4321"] 
+CMD ["npm","start"]
+ 
