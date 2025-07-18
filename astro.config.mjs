@@ -8,6 +8,7 @@ export default defineConfig({
   site: "http://demo.dkuaik.dev",
   vite: {
     server: {
+      host: true,
       allowedHosts: [
         "demos-chatbotragindava-aog5if-68d07a-217-196-48-210.traefik.me",
         "chat.dkuaik.dev",
@@ -16,6 +17,7 @@ export default defineConfig({
       ],
     },
     preview: {
+      host: true,
       allowedHosts: [
         "demos-chatbotragindava-aog5if-68d07a-217-196-48-210.traefik.me",
         "chat.dkuaik.dev",
