@@ -8,10 +8,18 @@ export default defineConfig({
   site: "http://demo.dkuaik.dev",
   vite: {
     server: {
-      allowedHosts: ['<all>'],
+      allowedHosts: [
+        "demos-chatbotragindava-aog5if-68d07a-217-196-48-210.traefik.me",
+        "localhost",
+        "127.0.0.1"
+      ],
     },
     preview: {
-      allowedHosts: ['<all>'],
+      allowedHosts: [
+        "demos-chatbotragindava-aog5if-68d07a-217-196-48-210.traefik.me",
+        "localhost",
+        "127.0.0.1"
+      ],
     },
   },
 });
