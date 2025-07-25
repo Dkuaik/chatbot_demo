@@ -1,0 +1,11 @@
+[variables]
+PORT = "3000"
+
+[phases.build]
+cmds = ["npm run build"]
+
+[phases.start]
+cmd = "nginx -g 'daemon off;'"
+
+[start]
+cmd = "nginx -g 'daemon off;'"

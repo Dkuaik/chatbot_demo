@@ -5,7 +5,7 @@ import react from '@astrojs/react';
 // https://astro.build/config
 export default defineConfig({
   integrations: [react()],
-  site: "http://demo.dkuaik.dev",
+  site: "http://chat.dkuaik.dev",
   vite: {
     server: {
       host: true,
